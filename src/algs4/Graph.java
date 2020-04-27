@@ -79,4 +79,7 @@ public class Graph {
         System.out.println(G.toString());
     }
 
+    public ArrayList<Integer> adj(int v) {
+        return adj.get(v);
+    }
 }
