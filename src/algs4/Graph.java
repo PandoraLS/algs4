@@ -73,13 +73,14 @@ public class Graph {
         return s.toString();
     }
 
+    public ArrayList<Integer> adj(int v) {
+        return adj.get(v);
+    }
+
     public static void main (String[] args) throws IOException {
         Path path = Paths.get(algs4DataConfig.root_dir, "tinyG.txt");
         Graph G = new Graph(path);
         System.out.println(G.toString());
     }
 
-    public ArrayList<Integer> adj(int v) {
-        return adj.get(v);
-    }
 }
