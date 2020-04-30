@@ -53,7 +53,7 @@ public class DepthFirstPaths {
 
         int s = 0;
         DepthFirstPaths dfPath = new DepthFirstPaths(G, s);
-        System.out.println("Depth First Pahts.....");
+        System.out.println("Depth First Paths.....");
         for (int v = 0; v < G.V(); v++) {
             if (dfPath.hasPathTo(v)) {
                 System.out.printf("%d to %d: ", s, v);
