@@ -24,4 +24,4 @@ hs_err_pid*
 
 # folder
 .idea/
-out/
+out/			# 存放输出
