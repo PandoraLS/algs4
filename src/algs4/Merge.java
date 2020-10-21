@@ -15,7 +15,7 @@ public class Merge {
         assert isSorted(a, lo, mid);
         assert isSorted(a, mid + 1, hi);
 
-        // copy to aux[]
+        // copy to aux[]                aux[] 是临时数组
         for (int k = lo; k <= hi; k++)
             aux[k] = a[k];
 
