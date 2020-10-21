@@ -63,8 +63,6 @@ public class Merge {
         for (int i = 0; i < strings.length; i++){
             vals[i] = Integer.parseInt(strings[i]);
         }
-
         sort(vals);
     }
-
 }
